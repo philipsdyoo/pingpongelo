@@ -1,0 +1,71 @@
+body {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+  margin: 5px 0;
+}
+
+.theme-showcase .navbar .container {
+  width: auto;
+}
+
+#match-jumbotron {
+	background-color: #333;
+	color: #fff;
+	height: 500px;
+}
+
+.pro-pic {
+	width: 100px;
+	height: auto;
+	border-radius: 50%;
+}
+
+.leader-pic {
+	width: 50px;
+	height: auto;
+	border-radius: 50%;
+}
+ol {
+	list-style: none;
+}
+
+#leaderboard li {
+	counter-increment: item;
+	margin-bottom: 25px;
+}
+
+#leaderboard li:before {
+	margin-right: 10px;
+	content: counter(item);
+	background: #333;
+	border-radius: 10%;
+	color: white;
+	width: 1.2em;
+	text-align: center;
+	display: inline-block;
+	font-size: 1.5em;
+}
+
+.leaderboard-text {
+	display: inline;
+}
+
+.join, .winner {
+	padding: 10px;
+	border-radius: 10px;
+	border: none;
+	background-color: #ddd;
+}
+
+.join {
+	margin-top: 100px;
+}
